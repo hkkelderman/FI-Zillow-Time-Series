@@ -26,19 +26,15 @@ With my dataset cleaned, I explored trends in profit margin and return on invest
 #### Profit Margin
 Over the course of 9 years, the average profit margin per metro area was 13.36%.
 
-Image of top 10 profit margins by metro area line graph
 <img src="Images-Used/pm_metro_mediansales.png" width = "500">
 
-Image of top 10 zipcodes
 <img src="Images-Used/pm-roi_zip_mediansales.png" width = "500">
 
 #### Net Profit
 Over the course of 9 years, the average return on investment per metro area was 18.4%.
 
-Image of top 10 profit margins by metro area line graph
 <img src="Images-Used/roi_metro_mediansales.png" width = "500">
 
-Image of top 10 zipcodes
 <img src="Images-Used/pm-roi_zip_mediansales.png" width = "500">
 
 
@@ -51,6 +47,7 @@ Having determined which zip codes to model from the results of my exploration, I
 
 Some predictions seemed to match the test data pretty well:
 <img src="Images-Used/m1_good.png" width = "500">
+
 Others did not:
 <img src="Images-Used/m1_bad.png" width = "500">
 
