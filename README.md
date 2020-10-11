@@ -46,9 +46,11 @@ After creating new variables and exploring the trends, it was time to put togeth
 Having determined which zip codes to model from the results of my exploration, I created a function that generated a model and visualized predictions against test data for each zipcode. Using the standard parameters (1,1,1), I created my first round of ARIMA models.
 
 Some predictions seemed to match the test data pretty well:
+
 <img src="Images-Used/m1_good.png" width = "500">
 
 Others did not:
+
 <img src="Images-Used/m1_bad.png" width = "500">
 
 #### Round 2
