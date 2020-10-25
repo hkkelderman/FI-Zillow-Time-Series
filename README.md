@@ -47,11 +47,11 @@ Having determined which zip codes to model from the results of my exploration, I
 
 Some predictions seemed to match the test data pretty well:
 
-<img src="Images-Used/m1_good.png" width = "500">
+<img src="Images-Used/m1_good_new.png" width = "500">
 
 Others did not:
 
-<img src="Images-Used/m1_bad.png" width = "500">
+<img src="Images-Used/m1_bad_new.png" width = "500">
 
 #### Round 2
 With this in mind, I needed to re-run the ARIMA models, this time creating multiple models for each zip code. For this second round of modeling, I was looking to see which iteration of paramters *p*, *d*, and *q* would result in the lowest Akaike Information Criteria (AIC) score. The AIC score quanitifies the goodness of fit for a model, and by minimizing the AIC score for each zip code, you end up generating a model with the best for each zip code. Even with optimzing the parameters for each zip code, some models still didn't do as great a job as others.
