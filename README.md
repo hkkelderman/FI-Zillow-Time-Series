@@ -2,9 +2,7 @@
 
 ## Introduction
 
-This is the process by which I generated an AutoRegressive Integrated Moving Average (ARIMA) time series model to determine the best zipcodes for investment. The model was generated using historical median house sales from Zillow.
-
-The data contains monthly median housing sales for zipcodes across the entire United States, going back as far as 1996.
+I created an AutoRegressive Integrated Moving Average (ARIMA) time series model to determine the best zipcodes for investment. The model was generated using historical median house sales from Zillow all the way back from 1996 from across the entire United States.
 
 What follows are my steps that lead me to my final model.
 
